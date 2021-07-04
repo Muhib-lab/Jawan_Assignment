@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first nav ul li
+{
+    display: inline;
+    padding: 10px;
+    margin: 30px;
+    list-style: none;
+}
+.first nav{
+    margin-left: 500px;
+}
+.first{
+    background-color: rgb(226, 223, 223);
+    padding:20px;
+}
+
+span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    /* margin-top: 10px; */
+    font-size: 30px;
+}
+.second img{
+    width: 1280px;
+    height: 400px;
+}
+.third{
+    padding-left: 40px;
+    background-color: rgb(230, 230, 230);
+    margin: 0;
+}
+
+.fourth{
+    color: rgb(231, 125, 125);
+}
+.fifth nav ul li{
+    display: inline-block;
+    padding: 40px;
+    margin-left: 100px;
+    color: white;
+
+}
+.fifth{
+    background-color:#C0BB40;
+}
+.freeze{
+    color: tomato;
+}
+.head{
+    min-width: 100px;
+    width: 100%;
+}

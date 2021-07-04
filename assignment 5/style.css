@@ -1,0 +1,50 @@
+#header{
+    background-color:darkslategray;
+    color: whitesmoke;
+    display: flex;
+}
+.firstspan{
+    text-align: right;
+}
+.pic{
+    align-items: right;
+}
+.third{
+    text-align: ;
+}
+.one nav ul li{
+    display: inline-block;
+    margin: 15px;
+    margin-left: 5px;
+}
+.two nav ul li{
+    display: inline-block;
+    margin: 15px;
+    margin-left: 6px;
+}
+
+.head nav ul li{
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 130px;
+}
+.head nav{
+    background-color: black;
+}
+
+.without{
+    display: flex;
+    justify-content: space-around;
+}
+
+.practice{
+    background-color: black;
+    color: white;
+   padding: 10px;
+   height: 200px;
+}
+.name{
+    display: flex;
+}
+

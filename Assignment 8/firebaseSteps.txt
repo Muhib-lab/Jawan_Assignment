@@ -1,0 +1,35 @@
+One time Configuration setup 
+============================
+
+Step 1) search nodeJs.
+Step 2) download and install nodeJS.
+Step 3) open cmd from window tab.
+Step 4) run command (npm i -g firebase-tools).
+
+Project Wise Setup
+==================
+
+Step 5) search firebase console.
+Step 6) create project in firebase.
+Step 7) create a folder named as public.
+Step 8) move all website files and folders in public folder.
+Step 9) run command (firebase login) for login in your system.
+Step 10) collect CLI? (y) yes.
+Step 11) allow Cli in browser.
+Step 12) run command (firebase init) for initialization.
+Step 13) are you ready (y) yes.
+Step 14) select hosting by space bar.
+Step 15) select existing project.
+Step 16) select required project which you want to deploy.
+Step 17) public folder press enter.
+Step 18) as a single page? (y) yes.
+Step 19) github? (n) no.
+Step 20)  Overwrite? (n) no.
+Step 21) run command (firebase deploy).
+
+
+https://mi-landing-page-9d58c.web.app
+
+ https://first-project-dcfc9.web.app
+
+https://project-5422280776244803061.web.app/
