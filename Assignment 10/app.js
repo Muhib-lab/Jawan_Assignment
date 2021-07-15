@@ -314,3 +314,163 @@
 //     console.log(ar) 
 // }
 // area();
+// q6
+// var a = +prompt('Enter number')
+// var res
+// for(var i=a-1 ; i>0 ; i--){
+//     a = a*i
+//     res = a
+// }
+// alert(res)
+// q8
+// var hypt
+// function gethypot(a,b){
+//     var a = +prompt()
+//     var b = +prompt()
+//     hypt = Math.sqrt((a*a)+(b*b))
+//     console.log(hypt)
+// }
+// gethypot()
+// q10
+// var a = prompt()
+// function pre(a){
+//     var b = a.split();
+//     var c = b.reverse()
+//     var d = c.join()
+//     if(a.toLowerCase() == d.toLowerCase()){
+//         console.log('It is palindrome')
+//     }else{
+//         console.log('It is NOT')
+//     }
+// }
+// pre()
+// function checkPalindrome(str) {
+//     var len = string.length;
+//     for (let i = 0; i < len / 2; i++) {       
+//         if (string[i] !== string[len - 1 - i]) {
+//             return 'It is not a palindrome';
+//         }
+//     }
+//     return 'It is a palindrome';
+// }
+// var string = prompt('Enter a string: ');
+// var value = checkPalindrome(string);
+// console.log(value);
+// q11
+// function uppercase(str)
+// {
+//   var array1 = str.split(' ');
+//   var newarray1 = [];
+//   for(var x = 0; x < array1.length; x++){
+//       newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//   }
+//   return newarray1.join(' ');
+// }
+// console.log(uppercase("the quick brown fox need a milk"));
+
+// function uppercase(str){
+//     var array1 = str.split(' ');
+//     var newarray1 = [];
+//     for(var x=0; x<array1.length ; x++){
+//         newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//     }
+//     return newarray1.join(' ');
+// }
+// console.log(uppercase('the brown fox adn the brown fox'))
+
+// function uppercase(str){
+//     var array1 = str.split(' ');
+//     var newarray1 = [];
+//     for(x=0 ; x<array1.length ; x++){
+//         newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//     }
+//     return newarray1.join(' ')
+// }
+// console.log(uppercase('now we are going to maweshi mandi'))
+// q12
+// function findLongestWord(str) {
+//     var strSplit = str.split(' ');
+//     var longestWord = 0;
+//     for(var i = 0; i < strSplit.length; i++){
+//       if(strSplit[i].length > longestWord){
+//       longestWord = strSplit[i].length;
+//        }
+//     }
+//     return longestWord;
+//   }
+//   console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+// function longestWord(text) {
+//     let wordArray = text.split(' ')
+//     let maxLength = 0
+//     let result = ''
+
+//     for (let i = 0; i < wordArray.length; i++) {
+//         if (wordArray[i].length > maxLength) {
+//             maxLength = wordArray[i].length
+//             result = wordArray[i]
+//         }
+//     }
+
+//     return result
+// }
+// console.log(longestWord('The quick brown fox jumped over the lazy dog'))
+// q14
+// function calcCircumference(r){
+//     var cir = 2 * 3.142 * r
+//     console.log(cir)
+// }
+// calcCircumference(3)
+// function calcArea(r){
+//     var area = 3.142 * (r*r)
+//     console.log('The area is: '+area)
+// }
+// calcArea(5)
+
+//.................Chapter 38 to 42 Start.......................
+
+// q1
+// function pow(a,b){
+//     var power = Math.pow(a,b)
+//     console.log(power)
+// }
+// pow(3,2)
+// q3
+// var a,b,c;
+// function s(a,b,c){
+//      a = +prompt()
+//      b = +prompt()
+//      c = +prompt()
+//      S = (a + b + c)/2
+//     console.log(S)
+// }
+// var ans =  s()
+// console.log(ans)
+// function area(){
+//     var area = ans*(ans - a)(ans-b)(ans-c)
+//     console.log(area)
+// }
+// area()
+// q6
+// function removeVowels( input ){
+//     return input.replace(/[aeiouAEIOU]/g, "");
+// }
+// console.log(removeVowels('the curly brown hair'))
+// q8
+// function dist_in_meter(a){
+//     var metre = a * 1000
+//     console.log('I metre: '+metre)
+//     return
+// }
+// dist_in_meter(12)
+// q4
+// function main_func(math,phy,chem){
+//     var sub = math + phy + chem
+//     return sub
+// }
+// var for_avg = main_func(100,90,80)
+// console.log(for_avg)
+// function avg(){
+//     var average = for_avg/3
+//     console.log(for_avg)
+// }
+// avg()
