@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1 class="heading mb-4 mt-1 text-white">CALCULATOR</h1></center>
+
+    <div class="main " >
+        <!-- <div class="greenu"><h6>Greenulator</h6></div> -->
+
+<form action="">    
+<div >
+    <input type="text" id='NuM' disabled class="text-input mb-0" >
+</div>
+
+         
+                
+<div class="m-1 ">
+    <input type="button" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(1)" value="1">
+    <input type="button" value="2"  class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(2)">
+    <input type="button" value="3" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(3)">
+    <input type="button" value="/" class="btn btn-outline-secondary text-white btn-lg text-danger" onclick="Calc('/')">
+</div>
+<div class="m-1">
+    <input type="button" value="4" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(4)">
+    <input type="button" value="5" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(5)">
+    <input type="button" value="6" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(6)">
+    <input type="button" value="-" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc('-')">
+</div>
+<div class="m-1">
+    <input type="button" value="7" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(7)">
+    <input type="button" value="8" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(8)">
+    <input type="button" value="9" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(9)">
+    <input type="button" value="*" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc('*')">
+</div> 
+<div class="m-1">
+    <input type="button" value="0" class="btn btn-outline-secondary text-white btn-lg" onclick="Calc(0)">
+    <input type="button" value="." class="btn btn-outline-secondary text-white btn-lg" onclick="Calc('.')">
+    <input type="button" value="=" class="btn btn-outline-secondary text-white btn-lg" onclick="result()">
+    <button class="btn btn-outline-secondary btn-lg text-white" onclick="clear()">C</button>
+</div>
+<div class="m-1">
+    <input type="button" name="" id="" value="+" class="buton btn btn-outline-secondary text-white"onclick="Calc('+')">
+    
+</div>
+
+
+
+
+
+</form>
+</div>
+<script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
